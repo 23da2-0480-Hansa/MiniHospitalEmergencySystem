@@ -6,9 +6,10 @@
 
 ## Student Information
 
-Name: Hansa Fawzer
+**Name:** Hansa Fawzer  
+**Student ID:** 23DA2-0480
 
-Student ID: 23DA2-0480
+---
 
 ## Project Description
 
@@ -18,9 +19,11 @@ The system manages patient records, emergency patients, completed treatments, an
 
 The system is implemented as a console-based Java application.
 
-## Data Structures Used
+---
 
-### 1. Binary Search Tree (BST)
+# Data Structures Used
+
+## 1. Binary Search Tree (BST)
 
 The Binary Search Tree is used to store patient records.
 
@@ -35,15 +38,15 @@ The system supports:
 
 In-order traversal displays patients in ascending order of Patient ID.
 
-### 2. Queue
+---
+
+## 2. Queue
 
 The Queue is used to manage patients waiting for emergency treatment.
 
 The queue follows the FIFO principle.
 
-FIFO means:
-
-First In, First Out
+**FIFO means: First In, First Out**
 
 The system supports:
 
@@ -52,15 +55,15 @@ The system supports:
 - Display waiting patients
 - Handle an empty queue
 
-### 3. Stack
+---
+
+## 3. Stack
 
 The Stack is used to store completed treatment records.
 
 The stack follows the LIFO principle.
 
-LIFO means:
-
-Last In, First Out
+**LIFO means: Last In, First Out**
 
 The system supports:
 
@@ -69,7 +72,9 @@ The system supports:
 - Display treatment history
 - Handle an empty stack
 
-### 4. Singly Linked List
+---
+
+## 4. Singly Linked List
 
 Each patient has a visit history stored using a Singly Linked List.
 
@@ -88,11 +93,15 @@ The system supports:
 - Search for a visit
 - Display visit history
 
-## Project Structure
+---
 
+# Project Structure
+
+```text
 MiniHospitalEmergencySystem
 │
-├────── Main.java
+├── src
+│   ├── Main.java
 │   ├── Patient.java
 │   ├── PatientBST.java
 │   ├── EmergencyQueue.java
@@ -102,10 +111,15 @@ MiniHospitalEmergencySystem
 │   └── TestPatient.java
 │
 ├── Screenshots
+│
+└── README.md
+```
+
+---
 
 # How to Run the Project
 
-Open a terminal inside the src folder.
+Open a terminal inside the `src` folder.
 
 Compile the Java files:
 
@@ -143,27 +157,23 @@ java Main
 
 # Important Concepts Demonstrated
 
-## BST
+## Binary Search Tree
 
 Patients are organized according to Patient ID.
 
 Smaller Patient IDs are stored in the left subtree, while larger Patient IDs are stored in the right subtree.
 
-In-order traversal displays the Patient IDs in ascending order.
+In-order traversal displays patients in ascending order of Patient ID.
 
 ## Queue
 
-The emergency queue follows:
-
-FIFO - First In, First Out.
+The emergency queue follows FIFO - First In, First Out.
 
 The first patient added to the queue is the first patient removed for treatment.
 
 ## Stack
 
-The treatment history follows:
-
-LIFO - Last In, First Out.
+The treatment history follows LIFO - Last In, First Out.
 
 The latest treatment record is removed first.
 
@@ -219,7 +229,7 @@ I gained practical experience with:
 
 # Author
 
-MFF HANSA
-23DA2-0480  
+**Hansa Fawzer**  
+**23DA2-0480**
 
 CIT300 - Data Structures and Algorithms
